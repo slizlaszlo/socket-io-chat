@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 13px Helvetica, Arial;
+}
+
+form {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    padding-top: 10px;
+}
+
+input {
+    border: 1px solid black;
+    padding: 5px;
+} 
+
+form input#user {
+    width: 9%;
+}
+
+form input#message {
+    width: 79%;
+}
+
+form input#send {
+    background-color: white;
+    width: 9%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#messages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#messages li {
+    padding: 5px 10px;
+}
+
+.user-message {
+    text-align: right;
+}

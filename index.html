@@ -1,0 +1,24 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>socket.io-chat</title>
+    <link  rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.0/socket.io.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body onload="ready()">
+    <h2>Socket.io test site</h2>
+    <ul id="messages"></ul>
+    <div id="placeholder"></div>
+    <form action="" id="messagesFrom">  
+        <input type="text" id="user" autocomplete="off" placeholder="Guest">
+        <input type="text" id="message" autocomplete="off" placeholder="Type here to chat">
+        <input type="submit" id="send" value="Send">
+    </form>
+</body>
+
+</html>
